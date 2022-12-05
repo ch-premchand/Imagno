@@ -16,7 +16,7 @@ def prediction(image):
     #file=image.getvalue()
     #file = load_img(image, target_size=(800,1200))
     file=Image.open(image)
-    file=file.resize((80,80))
+    file=file.resize((100,100))
     #input_arr = np.array(file)
     #print(input_arr.shape)
     #input_arr = input_arr.astype('float32') / 255
